@@ -7,7 +7,8 @@
 <meta name="author" content="{{ page.author | default: site.author | escape }}">
 <meta name="generator" content="Jekyll v{{ jekyll.version }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
-<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<link rel="icon" type="image/svg+xml" href="/assets/images/Final_simplified_cropped.svg">
+<link rel="alternate icon" type="image/png" href="/assets/images/favicon.png">
 {% if site.minimal %}
 <link rel="stylesheet" href="{{ "/assets/css/minimal.css" | relative_url }}">
 {% else %}
@@ -23,12 +24,12 @@
 {% endif %}
 {% if site.comments.disqus_shortname and page.layout == "post" %}<script src="//{{ site.comments.disqus_shortname }}.disqus.com/embed.js" async></script>{% endif %}
 {% if site.comments.isso_domain and page.layout == "post" %}<script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
-
 <header class="icons">
+
   {% unless site.show_title != true and site.navigation and site.external %}
     <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
   {% endunless %}
-  {% if site.navigation or site.external %}
+   {% if site.navigation or site.external %}
     {% include menu.html menu=site.navigation icons=false %}
     {% include menu.html menu=site.external icons=true %}
   {% else %}
@@ -39,6 +40,25 @@
     <div class="hidden description">{{ site.description }}</div>
   {% endif %}
 </header>
+<style>
+html, body {
+  height: 100%;
+}
+
+img.mug_logo {
+  height: 30%;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
+   <a>
+        <img class="mug_logo"
+                src="/assets/images/Final_BlueFont_cropped.svg"
+                height:/>
+    </a>
 
 {{ content }}
 
