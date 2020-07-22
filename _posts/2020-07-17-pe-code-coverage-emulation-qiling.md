@@ -66,7 +66,7 @@ I had left this blog on the backburner for a while, and later found that xwings 
 
 The defacto standard for visualizing code coverage in IDA Pro and Binary Ninja is a plugin called [Lighthouse](https://github.com/gaasedelen/lighthouse), which I'd highly recommend checking out if you're reverse engineering using these disassemblers. During my off-time, I've been trying to use [Ghidra](https://ghidra-sre.org/), which has a great disassembler and decompiler, and provides a plethora of features that are missing from IDA Pro. Once you get used to its quirks, it's a fantastic free and open source software reverse engineering suite. I came across a fantastic plugin called [Dragon Dance](https://github.com/0ffffffffh/dragondance) which provides similar functionality to Lighthouse for visualizing code coverage within Ghidra, and most importantly for this post, supports the DRCOV trace format. It supports a number of [built-in references](https://github.com/0ffffffffh/dragondance#built-in-references) which let you do things like `diff` traces within the highlighted syntax. Here's a nice depiction from the README of using the scripting interface with these functions:
 
-![](https://user-images.githubusercontent.com/437161/57895521-b9205280-7854-11e9-83ef-b9f09101efea.gif)
+![](https://user-images.githubusercontent.com/437161/57895545-d81ee480-7854-11e9-8713-b18036ff0b80.gif)
 
 In addition to this, Dragon Dance supports fixups, which essentially looks at the coverage integrity within the binary and compares this to instructions which have been disassembled by Ghidra. If these differ, then the plugin will prompt the user to fix these areas which Ghidra missed. Here's a depiction of this below, also from the README:
 
@@ -179,7 +179,7 @@ __p___argc() = 0x5053d44
 qiling.exception.QlErrorSyscallError: [!] Windows API Implementation Error
 ```
 
-Below we can see no further instruction highlights within Ghidra for after the call to `sprintf` within `msvcrt.dll`:
+Below we can see no further instruction highlights in Ghidra after the call to `sprintf` within `msvcrt.dll`:
 
 ![](/assets/images/sprintf-ghidra.png)
 
