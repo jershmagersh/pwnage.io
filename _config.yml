@@ -26,6 +26,7 @@ navigation:
   - {file: "talks.md", icon: address-card}
   - {file: "training.md", icon: address-card}
   - {file: "about.md", icon: address-card}
+  - {file: "ext_blogs.md", icon: address-card}
 
 external:                    # see http://fontawesome.com/icons
   - {title: Github, icon: github, url: "https://github.com/jershmagersh"}
