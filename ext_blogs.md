@@ -4,6 +4,16 @@ permalink: "/ext-blogs/"
 layout: page
 ---
 
+## CARBON SPIDER Embraces Big Game Hunting, Part 1
+
+Throughout 2020, CARBON SPIDER dramatically overhauled their operations. In April 2020, the adversary abruptly shifted from narrow campaigns focused entirely on companies operating point-of-sale (POS) devices to broad, indiscriminate operations that attempted to infect very many victims across all sectors. The goal of these campaigns was to conduct big game hunting (BGH) operations using PINCHY SPIDER’s REvil ransomware. 
+
+CARBON SPIDER deepened their commitment to BGH in August 2020 by using their own ransomware, Darkside. In November 2020, the adversary took another step into the world of BGH by establishing a ransomware-as-a-service (RaaS) affiliate program for Darkside, allowing other actors to use the ransomware while paying CARBON SPIDER a portion of the ransom received. 
+
+Part One of this two-part blog series details how CrowdStrike Intelligence attributed Darkside to CARBON SPIDER. Part Two will look at CARBON SPIDER’s re-emergence after the Colonial Pipeline attack, which led to the shutdown of Darkside RaaS and the creation of BlackMatter RaaS.
+
+* [CARBON SPIDER Embraces Big Game Hunting, Part 1](https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/)
+
 ## Double Trouble: Ransomware with Data Leak Extortion
 
 The most prominent eCrime trend observed so far in 2020 is big game hunting (BGH) actors stealing and leaking victim data in order to force ransom payments and, in some cases, demand two ransoms. Data extortion is not a new tactic for criminal adversaries; however, when BGH operations don’t result in payment, victims now face a double-headed threat of ensuring their data does not make it into the hands of others.
