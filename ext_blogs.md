@@ -4,6 +4,14 @@ permalink: "/ext-blogs/"
 layout: page
 ---
 
+## CARBON SPIDER Embraces Big Game Hunting, Part 2
+
+In 2020, CARBON SPIDER began conducting big game hunting (BGH) ransomware campaigns with PINCHY SPIDER’s REvil before introducing Darkside. The adversary later opened up Darkside to affiliates through a ransomware-as-a-service (RaaS) program, allowing other actors to use the ransomware while paying CARBON SPIDER a portion of the received ransom.
+
+The first part of this two-part blog series explored CARBON SPIDER’s initial BGH campaigns in depth. This blog discusses the Darkside ransomware incident at U.S. oil pipeline system Colonial Pipeline in May 2021 and how CARBON SPIDER responded to fallout from this event. Despite the termination of the Darkside program, the adversary continued malware distribution campaigns and subsequently introduced the BlackMatter RaaS. Due to numerous technical overlaps with Darkside, BlackMatter is attributed to CARBON SPIDER.
+
+* [CARBON SPIDER Embraces Big Game Hunting, Part 2](https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-2/)
+
 ## CARBON SPIDER Embraces Big Game Hunting, Part 1
 
 Throughout 2020, CARBON SPIDER dramatically overhauled their operations. In April 2020, the adversary abruptly shifted from narrow campaigns focused entirely on companies operating point-of-sale (POS) devices to broad, indiscriminate operations that attempted to infect very many victims across all sectors. The goal of these campaigns was to conduct big game hunting (BGH) operations using PINCHY SPIDER’s REvil ransomware. 
